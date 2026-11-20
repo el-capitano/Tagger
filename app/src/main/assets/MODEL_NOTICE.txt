@@ -1,0 +1,7 @@
+MobileFaceNet face embedding model (unmodified).
+Source: https://github.com/hugocornellier/face_detection_tflite
+Commit: b94c88de9fd9ae0b0faee156693de90ea707319e
+File: assets/models/mobilefacenet.tflite
+SHA-256: be4bc7cfc53f7bc336d0f28b1ab92535f618c913a422b683210750f6b5354854
+The upstream project distributes this model under Apache License 2.0.
+See mobilefacenet-LICENSE.txt in these assets for the full license.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Tagger</title>
+  <desc id="description">On-device face recognition, object identification, and people counting for Android.</desc>
+  <rect width="1200" height="320" rx="24" fill="#090e11"/>
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#2a383e"/>
+  <g transform="translate(64 85)" fill="none" stroke="#b8f36d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 0H0v30m80-30h30v30M0 80v30h30m80-30v30H80"/>
+    <circle cx="55" cy="44" r="17"/>
+    <path d="M30 85q25-25 50 0"/>
+  </g>
+  <text x="215" y="140" fill="#eaf1f3" font-family="Segoe UI,Arial,sans-serif" font-weight="650" font-size="76" letter-spacing="-2">Tagger</text>
+  <text x="218" y="185" fill="#9dadb5" font-family="Segoe UI,Arial,sans-serif" font-size="24">See the people. Understand the scene.</text>
+  <g fill="#eaf1f3" font-family="Segoe UI,Arial,sans-serif" font-size="16">
+    <rect x="218" y="226" width="160" height="38" rx="9" fill="#1b262c"/>
+    <text x="237" y="251">Face recognition</text>
+    <rect x="390" y="226" width="170" height="38" rx="9" fill="#1b262c"/>
+    <text x="408" y="251">Object identification</text>
+    <rect x="572" y="226" width="164" height="38" rx="9" fill="#1b262c"/>
+    <text x="591" y="251">People counting</text>
+  </g>
+  <g transform="translate(1000 80)" fill="none" stroke="#2a383e" stroke-width="2">
+    <rect width="105" height="160" rx="18"/>
+    <path d="M26 25H13v13m65-13h13v13M13 122v13h13m65-13v13H78" stroke="#7bc7ed" stroke-width="3"/>
+    <path d="M21 80h63" stroke="#b8f36d" stroke-width="3"/>
+  </g>
+</svg>

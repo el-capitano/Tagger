@@ -1,0 +1,7 @@
+EfficientDet-Lite0 object detector (unmodified), by Google / TensorFlow.
+Source: https://storage.googleapis.com/download.tensorflow.org/models/tflite/task_library/object_detection/android/lite-model_efficientdet_lite0_detection_metadata_1.tflite
+SHA-256: 2e04c53bfeac0ac2a30c057c7e2a777594ce39baaac35a92f74fb1e8c4fc4e0b
+Model family: https://github.com/tensorflow/tfhub.dev/blob/master/assets/docs/tensorflow/models/efficientdet/lite0/detection/1.md
+License: Apache License 2.0. See object-model-LICENSE.txt.
+The object-labels.txt file is extracted without modification from the model's labelmap.txt metadata.
+Google ML Kit's bundled image-labeling SDK supplies scene labels under its SDK terms.

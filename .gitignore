@@ -16,3 +16,4 @@ captures/
 .DS_Store
 Thumbs.db
 .android-test/
+.hallmark/

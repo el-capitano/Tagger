@@ -6,9 +6,12 @@
   <img alt="Android 8.0 or newer" src="https://img.shields.io/badge/Android-8.0%2B-B8F36D?style=flat-square&amp;labelColor=131B20" />
   <img alt="Built with Kotlin" src="https://img.shields.io/badge/Built_with-Kotlin-7BC7ED?style=flat-square&amp;labelColor=131B20" />
   <img alt="On-device processing" src="https://img.shields.io/badge/Processing-On_device-B8F36D?style=flat-square&amp;labelColor=131B20" />
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/License-MIT-B8F36D?style=flat-square&amp;labelColor=131B20" /></a>
 </p>
 
 **Tagger** turns your Android camera into a live viewfinder for familiar faces, common objects, and the people around you. Register people with their permission, add appearance samples, and choose exactly what information appears on screen. Recognition runs locally, with no account or server required in the app.
+
+Developed by **[Majed Khaznadar](https://majed.xyz)**.
 
 <p align="center">
   <a href="#install"><strong>Install Tagger</strong></a>
@@ -16,6 +19,8 @@
   <a href="#getting-started">Getting started</a>
   &nbsp; | &nbsp;
   <a href="#build-from-source">Build from source</a>
+  &nbsp; | &nbsp;
+  <a href="https://el-capitano.github.io/Tagger/">Website</a>
 </p>
 
 > **Development preview:** Tagger is under active development. Camera accuracy, counting reliability, and device compatibility still need real-world validation. It is not an authentication or access-control system.
@@ -34,7 +39,7 @@
 
 ## Install
 
-This private repository contains the complete source and bundled models. Follow [Build from source](#build-from-source) to create an APK, then install it using either method below. A prebuilt APK is not currently hosted in the repository.
+This repository contains the complete source and bundled models. Follow [Build from source](#build-from-source) to create an APK, then install it using either method below. A prebuilt APK is not currently hosted in the repository.
 
 ### On your Android phone
 
@@ -134,7 +139,7 @@ Photos or screens can fool recognition: this version has **no liveness or anti-s
 
 ### Requirements
 
-- Git and access to this private repository.
+- Git.
 - Android Studio with **Android SDK 36**.
 - **JDK 17 or 21**.
 - **NDK 28.2.13676358**, available through Android Studio's SDK Manager.
@@ -212,3 +217,13 @@ Tagger uses **Kotlin**, **Jetpack Compose**, **CameraX**, **Google ML Kit**, and
 | ML Kit image labeling | Selected scene labels | [Google ML Kit](https://developers.google.com/ml-kit/vision/image-labeling/android), under its SDK terms. |
 
 Model provenance, hashes, and license notices are packaged in `app/src/main/assets`. The public-domain Grace Hopper portrait used by instrumentation tests comes from [TensorFlow's example images](https://storage.googleapis.com/download.tensorflow.org/example_images/grace_hopper.jpg); it is not included in the installed app or pre-enrolled as a person.
+
+## License and author
+
+Developed by **[Majed Khaznadar](https://majed.xyz)**. Tagger's original source code, documentation, and website are available under the [MIT License](LICENSE).
+
+Bundled models, third-party SDKs, the Gradle wrapper, and test fixtures retain their respective licenses and terms. The MIT license does not replace the model notices and third-party terms listed above.
+
+## Website
+
+The [Tagger website](https://el-capitano.github.io/Tagger/) is hosted with GitHub Pages from `main` → `/docs`. Edit `docs/index.html` or the styles in `docs/`, then push to `main` to publish an update. The site uses static HTML and CSS with no build step.

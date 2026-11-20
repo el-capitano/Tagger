@@ -20,7 +20,7 @@ Developed by **[Majed Khaznadar](https://majed.xyz)**.
   &nbsp; | &nbsp;
   <a href="#build-from-source">Build from source</a>
   &nbsp; | &nbsp;
-  <a href="https://el-capitano.github.io/Tagger/">Website</a>
+  <a href="https://www.majed.xyz/Tagger/">Website</a>
 </p>
 
 > **Development preview:** Tagger is under active development. Camera accuracy, counting reliability, and device compatibility still need real-world validation. It is not an authentication or access-control system.
@@ -226,4 +226,4 @@ Bundled models, third-party SDKs, the Gradle wrapper, and test fixtures retain t
 
 ## Website
 
-The [Tagger website](https://el-capitano.github.io/Tagger/) is hosted with GitHub Pages from `main` → `/docs`. Edit `docs/index.html` or the styles in `docs/`, then push to `main` to publish an update. The site uses static HTML and CSS with no build step.
+The [Tagger website](https://www.majed.xyz/Tagger/) is hosted with GitHub Pages from `main` → `/docs`, using the account's existing Pages domain. Edit `docs/index.html` or the styles in `docs/`, then push to `main` to publish an update. The site uses static HTML and CSS with no build step.

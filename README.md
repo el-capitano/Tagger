@@ -11,7 +11,7 @@
 **Tagger** turns your Android camera into a live viewfinder for familiar faces, common objects, and the people around you. Register people with their permission, add appearance samples, and choose exactly what information appears on screen. Recognition runs locally, with no account or server required in the app.
 
 <p align="center">
-  <a href="https://github.com/el-capitano/Tagger/releases/latest"><strong>Download the Android APK</strong></a>
+  <a href="#install"><strong>Install Tagger</strong></a>
   &nbsp; | &nbsp;
   <a href="#getting-started">Getting started</a>
   &nbsp; | &nbsp;
@@ -34,15 +34,17 @@
 
 ## Install
 
+This private repository contains the complete source and bundled models. Follow [Build from source](#build-from-source) to create an APK, then install it using either method below. A prebuilt APK is not currently hosted in the repository.
+
 ### On your Android phone
 
 1. Use a phone or tablet running **Android 8.0 or newer** with a camera.
-2. Open the [latest release](https://github.com/el-capitano/Tagger/releases/latest). Because this repository is private, sign in to a GitHub account with access.
-3. Download the APK attached to the release, such as `Tagger-v1.2.1-debug.apk`.
-4. Open the downloaded file. If Android asks, allow your browser or file manager to **install unknown apps**, then continue with installation.
+2. [Build the APK](#build-from-source) on your computer.
+3. Copy `app/build/outputs/apk/debug/app-debug.apk` to your phone, for example over USB.
+4. Open the copied APK. If Android asks, allow your file manager to **install unknown apps**, then continue with installation.
 5. Launch **Tagger** and grant camera access.
 
-The release APK is a debug-signed development build. You do not need Android Studio to install it.
+The generated APK is a debug-signed development build.
 
 ### With ADB
 
@@ -50,7 +52,7 @@ Enable USB debugging on your device, connect it to your computer, authorize the 
 
 ```shell
 adb devices
-adb install -r Tagger-v1.2.1-debug.apk
+adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
 **Updating an existing installation:** install over the current app using a build signed with the same key. Do not uninstall Tagger or clear its storage if you want to keep registered people. The Android package ID remains `com.whoisthis.app` so the Tagger rename can update earlier builds without changing their data location.
